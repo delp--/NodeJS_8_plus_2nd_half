@@ -1,0 +1,7 @@
+"serve:break": "node --inspect-brk ./build/index.js",
+    "serve:works_node_7_9_0": "node-debug ./build/index.js",
+    "serve:1works_node_7_9_0": "node-debug  --expose_debug_as=v8debug ./build/index.js",
+    "serve:1works_node_7_9_0_but_no_mappings": "node --inspect --expose_debug_as=v8debug ./build/index.js",
+    "serve:2nothing_node_7_9_0_but_no_mappings": "node --expose_debug_as=v8debug ./build/index.js",
+    "servea:break_no_mapping_node_8": "node --inspect-brk ./build/index.js",
+    "servea:works_no_mapping": "node --inspect ./build/index.js",
